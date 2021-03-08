@@ -1,0 +1,10 @@
+.topbar {
+  background-color: #f2f3f7;
+  height: 3rem;
+}
+
+.topbar .topbar-logo {
+  height: auto;
+  opacity: 0.75;
+  width: 8.875rem;
+}

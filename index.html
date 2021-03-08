@@ -15,6 +15,52 @@
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/block/topbar.css" />
+    <link rel="stylesheet" href="./assets/css/block/steps.css" />
+    <link rel="stylesheet" href="./assets/css/block/banner.css" />
   </head>
-  <body></body>
+  <body>
+    <aside class="topbar d-flex align-items-center justify-content-center">
+      <img
+        src="./assets/img/logo.svg"
+        alt="Logomarca Doutor Nature"
+        class="topbar-logo img-fluid"
+      />
+    </aside>
+
+    <nav class="steps">
+      <div class="steps d-flex align-items-stretch">
+        <div class="step">
+          <span>Pedido</span>
+        </div>
+        <div class="step">
+          <span>Compra efetuada</span>
+        </div>
+        <div class="step active">
+          <span>Você está aqui</span>
+        </div>
+        <div class="step">
+          <span>Acesso ao produto</span>
+        </div>
+      </div>
+    </nav>
+
+    <header class="banner d-flex flex-column align-items-center">
+      <div class="banner-icon"></div>
+      <h2 class="banner-title">Espere!</h2>
+      <h3 class="banner-subtitle">Não saia dessa página</h3>
+      <span class="banner-footer">Arraste para baixo</span>
+
+      <div
+        class="banner-scrolldown d-flex align-items-center justify-content-center"
+      >
+        <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+          />
+        </svg>
+      </div>
+    </header>
+  </body>
 </html>
