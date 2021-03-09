@@ -47,15 +47,16 @@ main {
 .button {
   background-color: #f6694c;
   border-radius: 0.5rem;
-  color: #fff;
+  color: #fff !important;
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
   padding: 1rem 1.25rem;
+  text-decoration: none !important;
   text-align: center;
   transition: opacity 0.3s ease;
 }
 
-.button::hover {
-  opacity: 0.7;
+.button:hover {
+  opacity: 0.85;
 }
