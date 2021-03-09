@@ -60,3 +60,23 @@ main {
 .button:hover {
   opacity: 0.85;
 }
+
+br {
+  display: none;
+}
+
+@media (max-width: 424px) {
+  html {
+    font-size: 94%;
+  }
+
+  .container {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 424px) {
+  br {
+    display: block;
+  }
+}

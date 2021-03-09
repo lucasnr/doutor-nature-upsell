@@ -30,6 +30,11 @@
   color: #028a33;
 }
 
+.congrats .congrats-ticket {
+  max-width: 19.375rem;
+  width: 100%;
+}
+
 .congrats .congrats-list li {
   display: flex;
   flex-direction: column;
@@ -55,12 +60,9 @@
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5625rem;
+  margin-bottom: 0px;
   padding: 0px 1.5rem;
   position: relative;
-}
-
-.congrats .congrats-title br {
-  display: none;
 }
 
 .congrats .congrats-title strong {
@@ -103,9 +105,5 @@
 @media (min-width: 424px) {
   .congrats .congrats-title {
     margin-left: calc(1rem + 0.875rem);
-  }
-
-  .congrats .congrats-title br {
-    display: block;
   }
 }
