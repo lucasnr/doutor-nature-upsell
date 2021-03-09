@@ -13,6 +13,12 @@
   width: 6.25rem;
 }
 
+.banner .banner-icon svg {
+  color: #fff;
+  height: auto;
+  width: 44.36px;
+}
+
 .banner .banner-title {
   color: #f6694c;
   font-family: 'PT Serif', sans-serif;

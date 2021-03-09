@@ -5,6 +5,57 @@ textarea {
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  padding-bottom: 100vh;
+}
+
 strong {
   font-weight: 700;
+}
+
+main {
+  background-color: #ebf0f8;
+}
+
+.title {
+  color: #364453;
+  font-family: 'PT Serif', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+  text-align: center;
+}
+
+.triangle {
+  position: relative;
+}
+
+.triangle::after {
+  border-color: #fff transparent transparent transparent;
+  border-style: solid;
+  border-width: 2rem 1rem 0 1rem;
+  content: '';
+  height: 0;
+  left: 50%;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 0;
+  z-index: 99;
+}
+
+.button {
+  background-color: #f6694c;
+  border-radius: 0.5rem;
+  color: #fff;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.button::hover {
+  opacity: 0.7;
 }
