@@ -1,5 +1,6 @@
 .invitation {
-  padding: 2.25rem 0.875rem 2rem 0.875rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2.25rem;
 }
 
 .invitation > * {
@@ -19,9 +20,6 @@
   line-height: 1.875rem;
 }
 
-@media (min-width: 424px) {
-  .invitation {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+.invitation::after {
+  border-top-color: #ebf0f8;
 }

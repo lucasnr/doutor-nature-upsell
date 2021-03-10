@@ -70,6 +70,11 @@ br {
     font-size: 94%;
   }
 
+  section {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+  }
+
   .container {
     padding: 0px;
   }
