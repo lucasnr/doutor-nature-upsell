@@ -1,0 +1,27 @@
+.invitation {
+  padding: 2.25rem 0.875rem 2rem 0.875rem;
+}
+
+.invitation > * {
+  margin-bottom: 0px;
+  margin-top: 4rem;
+}
+
+.invitation .title {
+  color: #364453;
+  font-size: 1.875rem;
+  line-height: 2.8125rem;
+}
+
+.invitation .invitation-text {
+  color: #5e6872;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+
+@media (min-width: 424px) {
+  .invitation {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
