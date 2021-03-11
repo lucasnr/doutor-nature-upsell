@@ -8,3 +8,9 @@
   opacity: 0.75;
   width: 8.875rem;
 }
+
+@media (min-width: 768px) {
+  .topbar .topbar-logo {
+    width: 12rem;
+  }
+}

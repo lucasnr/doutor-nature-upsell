@@ -33,14 +33,16 @@
   width: 100%;
 }
 
-.congrats .congrats-list li {
+.congrats ul li {
   display: flex;
   flex-direction: column;
+  max-width: 24rem;
   padding: 2.75rem 0px;
   position: relative;
+  width: 100%;
 }
 
-.congrats .congrats-list li + li::before {
+.congrats ul li + li::before {
   background-color: #707070;
   content: '';
   display: block;

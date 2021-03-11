@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./assets/css/block/for-you.css" />
     <link rel="stylesheet" href="./assets/css/block/items.css" />
     <link rel="stylesheet" href="./assets/css/block/final.css" />
+    <link rel="stylesheet" href="./assets/css/block/timer.css" />
   </head>
   <body>
     <aside class="topbar d-flex align-items-center justify-content-center">
@@ -40,18 +41,20 @@
     </aside>
 
     <nav class="steps">
-      <div class="steps d-flex align-items-stretch">
-        <div class="step">
-          <span>Pedido</span>
-        </div>
-        <div class="step">
-          <span>Compra efetuada</span>
-        </div>
-        <div class="step active">
-          <span>Você está aqui</span>
-        </div>
-        <div class="step">
-          <span>Acesso ao produto</span>
+      <div class="container">
+        <div class="steps d-flex align-items-stretch">
+          <div class="step">
+            <span>Pedido</span>
+          </div>
+          <div class="step">
+            <span>Compra<br class="d-block" />efetuada</span>
+          </div>
+          <div class="step active">
+            <span>Você está aqui</span>
+          </div>
+          <div class="step">
+            <span>Acesso ao<br class="d-block" />produto</span>
+          </div>
         </div>
       </div>
     </nav>
@@ -82,7 +85,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="text-center">
       <div class="container">
         <section class="thanks triangle">
           <h2 class="title">
@@ -124,7 +127,7 @@
             da Doutor Nature
           </h2>
 
-          <p class="congrats-text text-center">
+          <p class="congrats-text">
             Você foi <span class="font-weight-bold">escolhido</span> para
             participar
             <br />
@@ -305,7 +308,9 @@
             </g>
           </svg>
 
-          <ul class="congrats-list list-unstyled m-0">
+          <ul
+            class="list-unstyled m-0 text-left d-flex flex-column align-items-center"
+          >
             <li>
               <h2 class="congrats-title">
                 <strong>
@@ -373,7 +378,7 @@
           </a>
         </section>
 
-        <section class="invitation d-flex flex-column text-center triangle">
+        <section class="invitation d-flex flex-column triangle">
           <h2 class="title">
             Convidamos você
             <br />
@@ -452,7 +457,7 @@
             essenciais:
           </h2>
 
-          <ul class="products-list list-unstyled m-0 text-center">
+          <ul class="products-list list-unstyled m-0">
             <li>
               <img
                 class="product-img"
@@ -600,7 +605,7 @@
             </li>
           </ul>
 
-          <section class="bonus text-center">
+          <section class="bonus">
             <h2 class="title text-uppercase">
               Você ainda ganha conteúdo bonus!
             </h2>
@@ -667,7 +672,7 @@
           </section>
         </section>
 
-        <section class="prices text-center triangle">
+        <section class="prices triangle">
           <h5 class="subtitle">
             Nós te entregamos o equivalente
             <br />
@@ -746,7 +751,7 @@
           </ul>
         </section>
 
-        <section class="today text-center triangle">
+        <section class="today triangle">
           <h3 class="today-text">
             Somente Hoje
             <br />
@@ -817,7 +822,7 @@
           </a>
         </section>
 
-        <section class="we-do text-center">
+        <section class="we-do">
           <h2 class="title">
             Nós vamos
             <br />
@@ -1079,7 +1084,7 @@
           </a>
         </section>
 
-        <section class="us text-center">
+        <section class="us">
           <img
             class="us-logo"
             src="./assets/img/logo-colored.svg"
@@ -1141,7 +1146,7 @@
           </p>
         </section>
 
-        <section class="for-you text-center">
+        <section class="for-you">
           <h5 class="subtitle">
             Sinceramente, esta é a decisão
             <br />
@@ -1252,11 +1257,27 @@
           </p>
 
           <div class="timer mt-5">
-            <img src="./assets/img/circle.svg" class="img-fluid" />
+            <h5 class="timer-title">Esta promoção encerra em:</h5>
+            <div class="timer-content">
+              <div class="hours">
+                <span class="countdown">02</span> <br />
+                <span class="text">Horas</span>
+              </div>
+              <div class="divisor">:</div>
+              <div class="minutes">
+                <span class="countdown">01</span> <br />
+                <span class="text">Minutos</span>
+              </div>
+              <div class="divisor">:</div>
+              <div class="seconds">
+                <span class="countdown">03</span> <br />
+                <span class="text">Segundos</span>
+              </div>
+            </div>
           </div>
         </section>
 
-        <section class="items text-center">
+        <section class="items">
           <h2 class="title">
             Tenha agora
             <br />
@@ -1322,7 +1343,7 @@
           </ul>
         </section>
 
-        <section class="final text-center">
+        <section class="final">
           <h2 class="title">
             <strong class="d-block text-uppercase">
               Valor total
@@ -1411,5 +1432,7 @@
         </section>
       </div>
     </main>
+
+    <script src="./assets/js/countdown.js"></script>
   </body>
 </html>

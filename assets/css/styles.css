@@ -108,6 +108,10 @@ br {
   white-space: nowrap;
 }
 
+.container {
+  max-width: 1026px !important;
+}
+
 @media (max-width: 423px) {
   html {
     font-size: 94%;
@@ -130,5 +134,11 @@ br {
 
   .total {
     font-size: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 105%;
   }
 }

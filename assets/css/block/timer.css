@@ -1,0 +1,34 @@
+.timer-title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.timer-content {
+  align-items: center;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: auto;
+  max-width: 21.875rem;
+}
+
+.timer-content .divisor {
+  margin-bottom: 2.125rem;
+}
+
+.timer-content .text {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+  justify-content: space-around;
+}
+
+@media (min-width: 576px) {
+  .timer-content {
+    font-size: 3.4rem;
+  }
+}
