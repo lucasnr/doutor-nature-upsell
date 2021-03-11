@@ -57,8 +57,8 @@
 }
 
 .products .bonus {
-  padding-bottom: 3.375rem;
-  padding-top: 4.25rem;
+  color: #364453;
+  padding: 4.25rem 0px 3.375rem 0px;
 }
 
 .bonus .title {
@@ -79,7 +79,6 @@
 }
 
 .bonus .bonus-subtitle {
-  color: #364453;
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 1.75rem;
@@ -88,7 +87,6 @@
 }
 
 .bonus .bonus-description {
-  color: #364453;
   font-size: 1.125rem;
   line-height: 1.75rem;
   margin: 0px;

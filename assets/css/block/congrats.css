@@ -1,7 +1,5 @@
 .congrats {
   background-color: #fff;
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
 }
 
 .congrats .title {
@@ -90,19 +88,16 @@
 
 .congrats .link {
   color: #f6694c;
-  display: block;
-  font-size: 1rem;
-  line-height: 1.875rem;
-  margin: 0px auto;
-  max-width: 20rem;
-  padding-top: 2.75rem;
   padding-bottom: 6.25rem;
-  text-align: center;
-  text-decoration: underline;
-  width: 100%;
+  padding-top: 2.75rem;
 }
 
 @media (min-width: 424px) {
+  .congrats {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+
   .congrats .congrats-title {
     margin-left: calc(1rem + 0.875rem);
   }
