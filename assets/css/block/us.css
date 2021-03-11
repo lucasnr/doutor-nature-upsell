@@ -1,0 +1,21 @@
+.us {
+  padding-bottom: 3.75rem;
+  padding-top: 3.75rem;
+}
+
+.us .us-logo {
+  width: 17.875rem;
+}
+
+.us .title {
+  font-size: 1.875rem;
+  line-height: 3.125rem;
+  margin: 2.5rem 0px;
+}
+
+.us p {
+  color: #010101;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  margin: 0px;
+}

@@ -1,0 +1,48 @@
+.for-you {
+  background-color: #fff;
+  border: 0.0625rem solid #707070;
+  border-radius: 0.5rem;
+  padding-bottom: 3.125rem;
+  padding-top: 3.125rem;
+}
+
+.for-you .subtitle {
+  opacity: 0.7;
+}
+
+.for-you .title {
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  margin: 2.5rem 0px;
+}
+
+.for-you p {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  margin: 0px;
+}
+
+.for-you .total {
+  margin-bottom: 1.25;
+  margin-top: 2.5rem;
+}
+
+.for-you .warranty {
+  margin: 2.5rem 0px;
+}
+
+.for-you .button {
+  margin-bottom: 2.5rem;
+  margin-top: 3.75rem;
+}
+
+.for-you .link {
+  color: #f63324;
+}
+
+.for-you hr {
+  border-color: #707070;
+  margin: 5.625rem auto;
+  max-width: 13.125rem;
+  opacity: 0.4;
+}

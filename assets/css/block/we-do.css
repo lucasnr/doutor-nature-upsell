@@ -1,0 +1,49 @@
+.we-do {
+  background-color: #00558e;
+  color: #fff;
+  padding-bottom: 3.75rem;
+  padding-top: 5.625rem;
+}
+
+.we-do .we-do-icon {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  margin: 0px auto;
+  width: 5rem;
+}
+
+.we-do .title {
+  color: inherit;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  margin-bottom: 3rem;
+}
+
+.we-do ul li + li {
+  margin-top: 4.375rem;
+}
+
+.we-do .we-do-title,
+.we-do .we-do-description {
+  font-size: 1.375rem;
+  line-height: 2.1875rem;
+}
+
+.we-do .we-do-title {
+  font-weight: 700;
+  margin: 0.875rem 0px;
+}
+
+.we-do .we-do-description {
+  color: #c5c4c4;
+  margin: 0px;
+}
+
+.we-do .button {
+  margin-bottom: 2.75rem;
+  margin-top: 4.625rem;
+}
