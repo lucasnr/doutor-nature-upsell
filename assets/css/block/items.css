@@ -1,0 +1,42 @@
+.items {
+  padding-bottom: 5.75rem;
+  padding-top: 4.75rem;
+}
+
+.items .title {
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  margin-bottom: 2.875rem;
+}
+
+.items ul li > * {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  margin: 0px;
+}
+
+.items ul li + li {
+  margin-top: 1.875rem;
+}
+
+.items .item-title {
+  font-weight: 700;
+}
+
+.items .item-subtitle {
+  color: #5e6872;
+  font-weight: 400;
+}
+
+.items .item-price {
+  color: #de0000;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.items .item-label {
+  color: #00b87c;
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

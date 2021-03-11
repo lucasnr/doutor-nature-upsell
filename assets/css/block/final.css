@@ -1,0 +1,49 @@
+.final {
+  padding-bottom: 2.75rem;
+}
+
+.final .title {
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  margin-bottom: 1.875rem;
+}
+
+.final .title strong {
+  color: #de0000;
+}
+
+.final .final-subtitle {
+  color: #de0000;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.final .warranty {
+  height: auto;
+  margin-bottom: 6rem;
+  margin-top: 4.375rem;
+  width: 9.375rem;
+}
+
+.final p {
+  font-size: 1.125rem;
+}
+
+.final #info {
+  color: #010101;
+  line-height: 1.875rem;
+  margin-bottom: 3.75rem;
+  margin-top: 5.625rem;
+}
+
+.final .final-link {
+  color: #010101;
+  display: block;
+  font-size: 1.125rem;
+  margin-top: 1.375rem;
+  margin-bottom: 4.25rem;
+}
+
+.final .link {
+  color: #f63324;
+}
