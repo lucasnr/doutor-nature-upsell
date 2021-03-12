@@ -6,16 +6,13 @@ textarea {
 }
 
 body {
+  background-color: #ebf0f8;
   overflow-x: hidden;
   width: 100%;
 }
 
 strong {
   font-weight: 700;
-}
-
-main {
-  background-color: #ebf0f8;
 }
 
 .title {
@@ -140,5 +137,11 @@ br {
 @media (min-width: 992px) {
   html {
     font-size: 105%;
+  }
+}
+
+@media (max-width: 1026px) {
+  .top-container {
+    padding: 0px;
   }
 }
